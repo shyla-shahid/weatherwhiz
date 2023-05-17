@@ -1,0 +1,117 @@
+*
+{ margin: o;
+padding: 0;
+box-sizing: border-box;}
+
+  body{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Baloo Bhai', cursive;
+    background-size: cover;
+   
+  overflow-y: hidden;
+}
+
+
+.navbar {
+  background-color: rgba(248, 240, 255, 0.862);
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #333333;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 30px;
+  }
+
+.appmain
+{
+    width: 50vh;
+    margin: 150px auto;
+    background-color: rgba(248, 240, 255, 0.845);
+    padding: 15px;
+    text-align: center;
+}
+.searchBtn {
+  background-color:white;
+  color: black;
+  margin-top: 12px;;
+  padding: 6px 14px;
+  border: none;
+  font-size: 16px;
+  font-family: 'Baloo Bhai', cursive;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.inputbox
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    height: 40px;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+    color:rgba(0, 0, 0, 0.696) ;
+    padding: 0 10;
+    border-radius: 5px;
+}
+.weather-body
+{
+  display: none;
+  height: 50vh;
+    margin: 50px auto;
+    background-color: rgba(248, 240, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.location-details
+{
+  font-weight: bold;
+}
+.temp
+{font-size: 50px; margin-top: 10px;
+text-shadow: 2px 4px rgba(0, 0, 0, 0.3);}
+.weather-status
+{
+  padding: 10px;
+  margin-top: 10px; font-size: 17px;
+}
+#city
+{ font-size: 30px;}
+#date
+{font-size: 20px;}
+
+@media (max-width: 500px) {
+ .appmain  {
+    width: 100%;}
+    body{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Baloo Bhai', cursive;
+    background-size: cover;
+    background-position: top;
+   
+  overflow-y: hidden;
+    }
+    
+  
+  }
